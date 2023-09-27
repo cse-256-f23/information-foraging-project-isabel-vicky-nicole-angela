@@ -97,3 +97,13 @@ main h4 a {
     background-color: #a51417;
     text-align: center;
 }
+
+.indent {
+    margin-left: 3%;
+    font-size:19.2px;
+}
+
+.indent2 {
+    margin-left: 6%;
+    font-size: 17.5px;
+}
