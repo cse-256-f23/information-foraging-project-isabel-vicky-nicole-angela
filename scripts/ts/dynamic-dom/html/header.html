@@ -2,7 +2,7 @@
   <!-- This it the top navigation bar's most outer element. -->
   <div id="header1" class="main-menu-container" style="background-color: #a51417;" >
     <!-- Another nested element for styling. -->
-    <div class="container top-nav-bar">
+    <div class="container-top-nav-bar">
         <svg xmlns="http://www.w3.org/2000/svg" width="321" height="28" viewBox="0 0 321 28" class="washu-logo"
         aria-labelledby="title" style="margin-top: 10px; float: left;">
         <title id="title">Washington University in St. Louis</title>
@@ -47,6 +47,9 @@
       </svg>
         <!-- The actual nav bar div. -->
       <div class="navbar red-bg">
+        <!-- Simply inserting links into the top nav may be a good idea as well if an item is important enough to warrant its own permanent spot in the top nav. -->
+        <a id="apply" href="files/apply.html" style="background-color: #007360;">Apply</a>
+        <a id="calendar" href="files/calendar.html">Calendar</a>
         <!-- Two kinds of elements can go in the nav bar. Drop down elements which are clickable and offer a list of options below themselves on hover or link elements which function like links that looks kind of like buttons. -->
         <div class="dropdown red-bg-dropdown">
           <!-- Drop down element below. Keep in mind that there is an anchor tag in the button. If you do not want the top element of a drop down to be navigable then do not include the anchor tag and instead just include the text -->
@@ -61,9 +64,6 @@
               Merchandise</a>
           </div>
         </div>
-        <!-- Simply inserting links into the top nav may be a good idea as well if an item is important enough to warrant its own permanent spot in the top nav. -->
-        <a id="calendar" href="files/calendar.html">Calendar</a>
-        <a id="apply" href="files/apply.html" style="background-color: #007360;">Apply</a>
       </div>
       </div>
   </div>
@@ -73,7 +73,7 @@
     <a class="site-title" href="files/index.html">Nursery School</a>
   </div>
   <div id="header2" class="main-menu-container">
-    <div class="container">
+    <div class="container-bot-nav-bar">
       <div class="navbar">
         <div class="dropdown">
           <button class="dropbtn">
