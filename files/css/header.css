@@ -11,7 +11,7 @@ header {
     display: flex;
 }
 
-#main-menu-container {
+.main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
 }
@@ -21,6 +21,11 @@ header {
     max-width: 71em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.top-nav-bar {
+    display: flex;
+    justify-content: space-between;
 }
 
 #washu-logo {
@@ -54,6 +59,9 @@ header {
     font-family: Arial;
 }
 
+.red-bg {
+    background-color: #a51417;
+}
 
 /* Links inside the navbar */
 
@@ -69,26 +77,6 @@ header {
 .navbar a:hover {
     text-decoration: underline;
 }
-
-.red-navbar {
-    overflow: hidden;
-    background-color: #3d3d3d;
-    font-family: Arial;
-}
-
-.red-navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.red-navbar a:hover {
-    text-decoration: underline;
-}
-
 
 header a {
     color: white;
@@ -131,6 +119,11 @@ header a {
     background-color: #555;
 }
 
+.red-bg a:hover,
+.red-bg-dropdown:hover .dropbtn{
+    background-color: #881113;
+}
+
 
 /* Dropdown content (hidden by default) */
 
@@ -167,4 +160,21 @@ header a {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/*idk whats content*/
+.sticky + body {
+    padding-top: 102px;
+}
+
+.sticky2 {
+    position: fixed;
+    top: 90px;
+    width: 100%
 }
