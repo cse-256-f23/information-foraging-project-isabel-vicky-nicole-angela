@@ -28,6 +28,7 @@
 
 .individual-staff-member,
 .individual-staff-member-inner-div {
+    display: flex;
     overflow: auto;
     clear: both;
 }
@@ -41,3 +42,4 @@
     float: left;
     overflow-wrap: normal;
 }
+
