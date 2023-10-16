@@ -1,5 +1,28 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+tr {
+    display: table-row;
+    background-color: #eee;
+}
+
+th {
+    background-color: #3d3d3d;
+    color: #eee;
+    font-weight: bold;
+    display: table-cell;
+    padding: 1em;
+}
+
+tr,
+td {
+    padding: 1em;
+    border: 1px solid #dadada;
+    font-size: 1em;
+    line-height: 1.1em;
+    text-align: center;
+}
+
 main ul {
     margin-top: 1em;
 }
