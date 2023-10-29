@@ -15,6 +15,18 @@
     margin-bottom: 20px;
 }
 
+.announcements h4 {
+    margin-top: 1em;
+    color: rgb(208, 28, 41);
+    cursor: pointer;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    text-decoration-color: rgb(208, 28, 41);
+}
+
 .enrollment-form-submit {
     align-items: flex-start;
     background-color: rgb(165, 20, 23);
